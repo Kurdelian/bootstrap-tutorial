@@ -1,0 +1,57 @@
+@media (min-width: 767px) {
+    .mobil-nav {display: none;}
+} 
+
+
+.form {
+    position: relative;
+}
+
+.form-img {
+    position: absolute;
+    bottom: 20%;
+    left: 2%;
+}
+
+.form:focus .form-img, 
+.form:hover .form-img {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .laptop-nav { display: none;}
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+}
+
+.nav-box {
+    width: 40px;
+    height: 40px;
+    background-color: #F3FBF8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.container-nav {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-hero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.bg-hero {
+    background-color: #F3FBF8;
+        background-image: url(../images/fresh-melientha-suavis-pierre-leaves-white-surface_51524-12145-removebg-preview1-min.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top left;
+    }
